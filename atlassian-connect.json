@@ -1,11 +1,7 @@
 {
-    "key": "my-hipchat-add-on",
-    "name": "Ping Pong",
-    "description": "My very first HipChat add-on",
-    "vendor": {
-        "name": "Charlie Awyeah",
-        "url": "https://www.hipchat.com"
-    },
+    "key": "vinnybot",
+    "name": "VinnyBot",
+    "description": "VinnyBot",
     "links": {
         "self": "{{localBaseUrl}}/atlassian-connect.json",
         "homepage": "{{localBaseUrl}}/atlassian-connect.json"
