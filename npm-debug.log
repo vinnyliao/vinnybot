@@ -1,0 +1,1159 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/vincentliao/Git/vinny-hipchat-addon',
+5 verbose install   [ 'express',
+5 verbose install     'express-hbs',
+5 verbose install     'static-expiry',
+5 verbose install     'request',
+5 verbose install     'rsvp',
+5 verbose install     'atlassian-connect-express',
+5 verbose install     'atlassian-connect-express-redis',
+5 verbose install     'atlassian-connect-express-hipchat',
+5 verbose install     'lodash' ] ]
+6 info preinstall my-hipchat-add-on@0.0.1
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'express-hbs@*', null ]
+9 verbose cache add name=undefined spec="express-hbs@*" args=["express-hbs@*",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'express-hbs@*',
+10 verbose parsed url   path: 'express-hbs@*',
+10 verbose parsed url   href: 'express-hbs@*' }
+11 verbose cache add [ 'static-expiry@>=0.0.10', null ]
+12 verbose cache add name=undefined spec="static-expiry@>=0.0.10" args=["static-expiry@>=0.0.10",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'static-expiry@%3E=0.0.10',
+13 verbose parsed url   path: 'static-expiry@%3E=0.0.10',
+13 verbose parsed url   href: 'static-expiry@%3E=0.0.10' }
+14 verbose cache add [ 'request@^2.33.0', null ]
+15 verbose cache add name=undefined spec="request@^2.33.0" args=["request@^2.33.0",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'request@^2.33.0',
+16 verbose parsed url   path: 'request@^2.33.0',
+16 verbose parsed url   href: 'request@^2.33.0' }
+17 verbose cache add [ 'rsvp@^3.0.3', null ]
+18 verbose cache add name=undefined spec="rsvp@^3.0.3" args=["rsvp@^3.0.3",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'rsvp@^3.0.3',
+19 verbose parsed url   path: 'rsvp@^3.0.3',
+19 verbose parsed url   href: 'rsvp@^3.0.3' }
+20 verbose cache add name="express-hbs" spec="*" args=["express-hbs","*"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '*',
+21 verbose parsed url   path: '*',
+21 verbose parsed url   href: '*' }
+22 verbose addNamed [ 'express-hbs', '*' ]
+23 verbose addNamed [ null, '*' ]
+24 verbose cache add name="static-expiry" spec=">=0.0.10" args=["static-expiry",">=0.0.10"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '%3E=0.0.10',
+25 verbose parsed url   path: '%3E=0.0.10',
+25 verbose parsed url   href: '%3E=0.0.10' }
+26 verbose addNamed [ 'static-expiry', '>=0.0.10' ]
+27 verbose addNamed [ null, '>=0.0.10' ]
+28 verbose cache add name="request" spec="^2.33.0" args=["request","^2.33.0"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '^2.33.0',
+29 verbose parsed url   path: '^2.33.0',
+29 verbose parsed url   href: '^2.33.0' }
+30 verbose addNamed [ 'request', '^2.33.0' ]
+31 verbose addNamed [ null, '>=2.33.0-0 <3.0.0-0' ]
+32 verbose cache add [ 'atlassian-connect-express@^1.0.0-beta2', null ]
+33 verbose cache add name=undefined spec="atlassian-connect-express@^1.0.0-beta2" args=["atlassian-connect-express@^1.0.0-beta2",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'atlassian-connect-express@^1.0.0-beta2',
+34 verbose parsed url   path: 'atlassian-connect-express@^1.0.0-beta2',
+34 verbose parsed url   href: 'atlassian-connect-express@^1.0.0-beta2' }
+35 verbose cache add [ 'atlassian-connect-express-redis@^0.1.3', null ]
+36 verbose cache add name=undefined spec="atlassian-connect-express-redis@^0.1.3" args=["atlassian-connect-express-redis@^0.1.3",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'atlassian-connect-express-redis@^0.1.3',
+37 verbose parsed url   path: 'atlassian-connect-express-redis@^0.1.3',
+37 verbose parsed url   href: 'atlassian-connect-express-redis@^0.1.3' }
+38 verbose cache add name="rsvp" spec="^3.0.3" args=["rsvp","^3.0.3"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '^3.0.3',
+39 verbose parsed url   path: '^3.0.3',
+39 verbose parsed url   href: '^3.0.3' }
+40 verbose addNamed [ 'rsvp', '^3.0.3' ]
+41 verbose addNamed [ null, '>=3.0.3-0 <4.0.0-0' ]
+42 silly lockFile 06f871dc-express-hbs express-hbs@*
+43 verbose lock express-hbs@* /Users/vincentliao/.npm/06f871dc-express-hbs.lock
+44 silly lockFile 42f3832c-static-expiry-0-0-10 static-expiry@>=0.0.10
+45 verbose lock static-expiry@>=0.0.10 /Users/vincentliao/.npm/42f3832c-static-expiry-0-0-10.lock
+46 silly lockFile cda8d828-request-2-33-0 request@^2.33.0
+47 verbose lock request@^2.33.0 /Users/vincentliao/.npm/cda8d828-request-2-33-0.lock
+48 silly lockFile 92b538a4-rsvp-3-0-3 rsvp@^3.0.3
+49 verbose lock rsvp@^3.0.3 /Users/vincentliao/.npm/92b538a4-rsvp-3-0-3.lock
+50 verbose cache add name="atlassian-connect-express" spec="^1.0.0-beta2" args=["atlassian-connect-express","^1.0.0-beta2"]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '^1.0.0-beta2',
+51 verbose parsed url   path: '^1.0.0-beta2',
+51 verbose parsed url   href: '^1.0.0-beta2' }
+52 verbose addNamed [ 'atlassian-connect-express', '^1.0.0-beta2' ]
+53 verbose addNamed [ null, '>=1.0.0-beta2 <2.0.0-0' ]
+54 silly lockFile e436f043-sian-connect-express-1-0-0-beta2 atlassian-connect-express@^1.0.0-beta2
+55 verbose lock atlassian-connect-express@^1.0.0-beta2 /Users/vincentliao/.npm/e436f043-sian-connect-express-1-0-0-beta2.lock
+56 verbose cache add [ 'atlassian-connect-express-hipchat@^0.2.0', null ]
+57 verbose cache add name=undefined spec="atlassian-connect-express-hipchat@^0.2.0" args=["atlassian-connect-express-hipchat@^0.2.0",null]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'atlassian-connect-express-hipchat@^0.2.0',
+58 verbose parsed url   path: 'atlassian-connect-express-hipchat@^0.2.0',
+58 verbose parsed url   href: 'atlassian-connect-express-hipchat@^0.2.0' }
+59 verbose cache add [ 'lodash@*', null ]
+60 verbose cache add name=undefined spec="lodash@*" args=["lodash@*",null]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: 'lodash@*',
+61 verbose parsed url   path: 'lodash@*',
+61 verbose parsed url   href: 'lodash@*' }
+62 verbose cache add [ 'express@^3.4.8', null ]
+63 verbose cache add name=undefined spec="express@^3.4.8" args=["express@^3.4.8",null]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: 'express@^3.4.8',
+64 verbose parsed url   path: 'express@^3.4.8',
+64 verbose parsed url   href: 'express@^3.4.8' }
+65 verbose cache add name="atlassian-connect-express-redis" spec="^0.1.3" args=["atlassian-connect-express-redis","^0.1.3"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '^0.1.3',
+66 verbose parsed url   path: '^0.1.3',
+66 verbose parsed url   href: '^0.1.3' }
+67 verbose addNamed [ 'atlassian-connect-express-redis', '^0.1.3' ]
+68 verbose addNamed [ null, '>=0.1.3-0 <0.2.0-0' ]
+69 silly lockFile 5d4bc6e2-sian-connect-express-redis-0-1-3 atlassian-connect-express-redis@^0.1.3
+70 verbose lock atlassian-connect-express-redis@^0.1.3 /Users/vincentliao/.npm/5d4bc6e2-sian-connect-express-redis-0-1-3.lock
+71 verbose cache add name="atlassian-connect-express-hipchat" spec="^0.2.0" args=["atlassian-connect-express-hipchat","^0.2.0"]
+72 verbose parsed url { protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: '^0.2.0',
+72 verbose parsed url   path: '^0.2.0',
+72 verbose parsed url   href: '^0.2.0' }
+73 verbose addNamed [ 'atlassian-connect-express-hipchat', '^0.2.0' ]
+74 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+75 silly lockFile 5491c5d9-an-connect-express-hipchat-0-2-0 atlassian-connect-express-hipchat@^0.2.0
+76 verbose lock atlassian-connect-express-hipchat@^0.2.0 /Users/vincentliao/.npm/5491c5d9-an-connect-express-hipchat-0-2-0.lock
+77 verbose cache add name="lodash" spec="*" args=["lodash","*"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '*',
+78 verbose parsed url   path: '*',
+78 verbose parsed url   href: '*' }
+79 verbose addNamed [ 'lodash', '*' ]
+80 verbose addNamed [ null, '*' ]
+81 silly lockFile 15f92fc8-lodash lodash@*
+82 verbose lock lodash@* /Users/vincentliao/.npm/15f92fc8-lodash.lock
+83 verbose cache add name="express" spec="^3.4.8" args=["express","^3.4.8"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '^3.4.8',
+84 verbose parsed url   path: '^3.4.8',
+84 verbose parsed url   href: '^3.4.8' }
+85 verbose addNamed [ 'express', '^3.4.8' ]
+86 verbose addNamed [ null, '>=3.4.8-0 <4.0.0-0' ]
+87 silly lockFile ef52c292-express-3-4-8 express@^3.4.8
+88 verbose lock express@^3.4.8 /Users/vincentliao/.npm/ef52c292-express-3-4-8.lock
+89 silly addNameRange { name: 'express-hbs', range: '*', hasData: false }
+90 silly addNameRange { name: 'static-expiry', range: '>=0.0.10', hasData: false }
+91 silly addNameRange { name: 'request', range: '>=2.33.0-0 <3.0.0-0', hasData: false }
+92 silly addNameRange { name: 'rsvp', range: '>=3.0.3-0 <4.0.0-0', hasData: false }
+93 silly addNameRange { name: 'atlassian-connect-express',
+93 silly addNameRange   range: '>=1.0.0-beta2 <2.0.0-0',
+93 silly addNameRange   hasData: false }
+94 verbose request where is /express-hbs
+95 verbose request registry https://registry.npmjs.org/
+96 verbose request id 28be0a6d317162a8
+97 verbose url raw /express-hbs
+98 verbose url resolving [ 'https://registry.npmjs.org/', './express-hbs' ]
+99 verbose url resolved https://registry.npmjs.org/express-hbs
+100 verbose request where is https://registry.npmjs.org/express-hbs
+101 info trying registry request attempt 1 at 01:05:00
+102 http GET https://registry.npmjs.org/express-hbs
+103 silly addNameRange { name: 'atlassian-connect-express-redis',
+103 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+103 silly addNameRange   hasData: false }
+104 verbose request where is /static-expiry
+105 verbose request registry https://registry.npmjs.org/
+106 verbose url raw /static-expiry
+107 verbose url resolving [ 'https://registry.npmjs.org/', './static-expiry' ]
+108 verbose url resolved https://registry.npmjs.org/static-expiry
+109 verbose request where is https://registry.npmjs.org/static-expiry
+110 info trying registry request attempt 1 at 01:05:00
+111 http GET https://registry.npmjs.org/static-expiry
+112 verbose request where is /rsvp
+113 verbose request registry https://registry.npmjs.org/
+114 verbose url raw /rsvp
+115 verbose url resolving [ 'https://registry.npmjs.org/', './rsvp' ]
+116 verbose url resolved https://registry.npmjs.org/rsvp
+117 verbose request where is https://registry.npmjs.org/rsvp
+118 info trying registry request attempt 1 at 01:05:00
+119 http GET https://registry.npmjs.org/rsvp
+120 silly addNameRange { name: 'atlassian-connect-express-hipchat',
+120 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+120 silly addNameRange   hasData: false }
+121 verbose request where is /atlassian-connect-express
+122 verbose request registry https://registry.npmjs.org/
+123 verbose url raw /atlassian-connect-express
+124 verbose url resolving [ 'https://registry.npmjs.org/', './atlassian-connect-express' ]
+125 verbose url resolved https://registry.npmjs.org/atlassian-connect-express
+126 verbose request where is https://registry.npmjs.org/atlassian-connect-express
+127 info trying registry request attempt 1 at 01:05:00
+128 http GET https://registry.npmjs.org/atlassian-connect-express
+129 silly addNameRange { name: 'lodash', range: '*', hasData: false }
+130 silly addNameRange { name: 'express', range: '>=3.4.8-0 <4.0.0-0', hasData: false }
+131 verbose request where is /atlassian-connect-express-redis
+132 verbose request registry https://registry.npmjs.org/
+133 verbose url raw /atlassian-connect-express-redis
+134 verbose url resolving [ 'https://registry.npmjs.org/',
+134 verbose url resolving   './atlassian-connect-express-redis' ]
+135 verbose url resolved https://registry.npmjs.org/atlassian-connect-express-redis
+136 verbose request where is https://registry.npmjs.org/atlassian-connect-express-redis
+137 info trying registry request attempt 1 at 01:05:00
+138 http GET https://registry.npmjs.org/atlassian-connect-express-redis
+139 verbose request where is /atlassian-connect-express-hipchat
+140 verbose request registry https://registry.npmjs.org/
+141 verbose url raw /atlassian-connect-express-hipchat
+142 verbose url resolving [ 'https://registry.npmjs.org/',
+142 verbose url resolving   './atlassian-connect-express-hipchat' ]
+143 verbose url resolved https://registry.npmjs.org/atlassian-connect-express-hipchat
+144 verbose request where is https://registry.npmjs.org/atlassian-connect-express-hipchat
+145 info trying registry request attempt 1 at 01:05:00
+146 http GET https://registry.npmjs.org/atlassian-connect-express-hipchat
+147 verbose request where is /express
+148 verbose request registry https://registry.npmjs.org/
+149 verbose url raw /express
+150 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+151 verbose url resolved https://registry.npmjs.org/express
+152 verbose request where is https://registry.npmjs.org/express
+153 info trying registry request attempt 1 at 01:05:00
+154 http GET https://registry.npmjs.org/express
+155 verbose request where is /request
+156 verbose request registry https://registry.npmjs.org/
+157 verbose url raw /request
+158 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+159 verbose url resolved https://registry.npmjs.org/request
+160 verbose request where is https://registry.npmjs.org/request
+161 info trying registry request attempt 1 at 01:05:00
+162 verbose etag "AF98UQX3FI77F1X1FCMR0WZG4"
+163 http GET https://registry.npmjs.org/request
+164 verbose request where is /lodash
+165 verbose request registry https://registry.npmjs.org/
+166 verbose url raw /lodash
+167 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+168 verbose url resolved https://registry.npmjs.org/lodash
+169 verbose request where is https://registry.npmjs.org/lodash
+170 info trying registry request attempt 1 at 01:05:00
+171 verbose etag "EF38GX9ARU19ST2K758MOPE83"
+172 http GET https://registry.npmjs.org/lodash
+173 http 200 https://registry.npmjs.org/express-hbs
+174 silly registry.get cb [ 200,
+174 silly registry.get   { date: 'Wed, 08 Oct 2014 05:05:00 GMT',
+174 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+174 silly registry.get     etag: '"4R8M0Q0QVMWWRRAWSA5OAUMAG"',
+174 silly registry.get     'content-type': 'application/json',
+174 silly registry.get     'cache-control': 'max-age=60',
+174 silly registry.get     'content-length': '36298',
+174 silly registry.get     'accept-ranges': 'bytes',
+174 silly registry.get     via: '1.1 varnish',
+174 silly registry.get     age: '10807',
+174 silly registry.get     'x-served-by': 'cache-atl6222-ATL',
+174 silly registry.get     'x-cache': 'HIT',
+174 silly registry.get     'x-cache-hits': '1',
+174 silly registry.get     'x-timer': 'S1412744700.591732,VS0,VE111',
+174 silly registry.get     vary: 'Accept',
+174 silly registry.get     'keep-alive': 'timeout=10, max=50',
+174 silly registry.get     connection: 'Keep-Alive' } ]
+175 silly addNameRange number 2 { name: 'express-hbs', range: '*', hasData: true }
+176 silly addNameRange versions [ 'express-hbs',
+176 silly addNameRange   [ '0.1.0',
+176 silly addNameRange     '0.1.1',
+176 silly addNameRange     '0.1.2-pre',
+176 silly addNameRange     '0.1.3-pre',
+176 silly addNameRange     '0.1.3',
+176 silly addNameRange     '0.1.4',
+176 silly addNameRange     '0.1.5',
+176 silly addNameRange     '0.1.6',
+176 silly addNameRange     '0.2.0',
+176 silly addNameRange     '0.2.1',
+176 silly addNameRange     '0.2.2',
+176 silly addNameRange     '0.3.0',
+176 silly addNameRange     '0.5.0',
+176 silly addNameRange     '0.5.1',
+176 silly addNameRange     '0.5.2',
+176 silly addNameRange     '0.6.1',
+176 silly addNameRange     '0.7.0-pre',
+176 silly addNameRange     '0.7.1-pre',
+176 silly addNameRange     '0.7.3-pre',
+176 silly addNameRange     '0.7.4-pre',
+176 silly addNameRange     '0.7.5',
+176 silly addNameRange     '0.7.6',
+176 silly addNameRange     '0.7.7',
+176 silly addNameRange     '0.7.8',
+176 silly addNameRange     '0.7.9',
+176 silly addNameRange     '0.7.10',
+176 silly addNameRange     '0.7.11' ] ]
+177 verbose addNamed [ 'express-hbs', '0.7.11' ]
+178 verbose addNamed [ '0.7.11', '0.7.11' ]
+179 silly lockFile 82d18d62-express-hbs-0-7-11 express-hbs@0.7.11
+180 verbose lock express-hbs@0.7.11 /Users/vincentliao/.npm/82d18d62-express-hbs-0-7-11.lock
+181 silly lockFile ff10fc91-press-hbs-express-hbs-0-7-11-tgz https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+182 verbose lock https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz /Users/vincentliao/.npm/ff10fc91-press-hbs-express-hbs-0-7-11-tgz.lock
+183 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz',
+183 verbose addRemoteTarball   'a3a74a77a9118ea5c4322a97821d3d6c3a6e1574' ]
+184 info retry fetch attempt 1 at 01:05:00
+185 verbose fetch to= /var/folders/vg/6vh_7xs56vscr6mpm9wl6rv80000gn/T/npm-32525-BtPo2J_G/registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+186 http GET https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+187 http 200 https://registry.npmjs.org/static-expiry
+188 silly registry.get cb [ 200,
+188 silly registry.get   { date: 'Wed, 08 Oct 2014 05:05:00 GMT',
+188 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+188 silly registry.get     etag: '"66F95PVRQ08KLEGO4S1VMTR44"',
+188 silly registry.get     'content-type': 'application/json',
+188 silly registry.get     'cache-control': 'max-age=60',
+188 silly registry.get     'content-length': '79302',
+188 silly registry.get     'accept-ranges': 'bytes',
+188 silly registry.get     via: '1.1 varnish',
+188 silly registry.get     age: '0',
+188 silly registry.get     'x-served-by': 'cache-atl6226-ATL',
+188 silly registry.get     'x-cache': 'MISS',
+188 silly registry.get     'x-cache-hits': '0',
+188 silly registry.get     'x-timer': 'S1412744700.598103,VS0,VE75',
+188 silly registry.get     vary: 'Accept',
+188 silly registry.get     'keep-alive': 'timeout=10, max=50',
+188 silly registry.get     connection: 'Keep-Alive' } ]
+189 silly addNameRange number 2 { name: 'static-expiry', range: '>=0.0.10', hasData: true }
+190 silly addNameRange versions [ 'static-expiry',
+190 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.5', '0.0.7', '0.0.9', '0.0.10' ] ]
+191 verbose addNamed [ 'static-expiry', '0.0.10' ]
+192 verbose addNamed [ '0.0.10', '0.0.10' ]
+193 silly lockFile c8390b22-static-expiry-0-0-10 static-expiry@0.0.10
+194 verbose lock static-expiry@0.0.10 /Users/vincentliao/.npm/c8390b22-static-expiry-0-0-10.lock
+195 silly lockFile 6c456545--expiry-static-expiry-0-0-10-tgz https://registry.npmjs.org/static-expiry/-/static-expiry-0.0.10.tgz
+196 verbose lock https://registry.npmjs.org/static-expiry/-/static-expiry-0.0.10.tgz /Users/vincentliao/.npm/6c456545--expiry-static-expiry-0-0-10-tgz.lock
+197 verbose addRemoteTarball [ 'https://registry.npmjs.org/static-expiry/-/static-expiry-0.0.10.tgz',
+197 verbose addRemoteTarball   '79b4bec8fe7237dc06f8f4b23e3ffb6dab307a25' ]
+198 info retry fetch attempt 1 at 01:05:00
+199 verbose fetch to= /var/folders/vg/6vh_7xs56vscr6mpm9wl6rv80000gn/T/npm-32525-BtPo2J_G/registry.npmjs.org/static-expiry/-/static-expiry-0.0.10.tgz
+200 http GET https://registry.npmjs.org/static-expiry/-/static-expiry-0.0.10.tgz
+201 http 200 https://registry.npmjs.org/atlassian-connect-express
+202 silly registry.get cb [ 200,
+202 silly registry.get   { date: 'Wed, 08 Oct 2014 05:05:00 GMT',
+202 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+202 silly registry.get     etag: '"8YJGO7FVXLWA737KKNVX243B0"',
+202 silly registry.get     'content-type': 'application/json',
+202 silly registry.get     'cache-control': 'max-age=60',
+202 silly registry.get     'content-length': '84107',
+202 silly registry.get     'accept-ranges': 'bytes',
+202 silly registry.get     via: '1.1 varnish',
+202 silly registry.get     age: '0',
+202 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+202 silly registry.get     'x-cache': 'MISS',
+202 silly registry.get     'x-cache-hits': '0',
+202 silly registry.get     'x-timer': 'S1412744700.581961,VS0,VE165',
+202 silly registry.get     vary: 'Accept',
+202 silly registry.get     'keep-alive': 'timeout=10, max=50',
+202 silly registry.get     connection: 'Keep-Alive' } ]
+203 http 200 https://registry.npmjs.org/atlassian-connect-express-redis
+204 silly registry.get cb [ 200,
+204 silly registry.get   { date: 'Wed, 08 Oct 2014 05:05:00 GMT',
+204 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+204 silly registry.get     etag: '"AIC9H1PRSJ0BEOB2JPCRZ35AW"',
+204 silly registry.get     'content-type': 'application/json',
+204 silly registry.get     'cache-control': 'max-age=60',
+204 silly registry.get     'content-length': '5337',
+204 silly registry.get     'accept-ranges': 'bytes',
+204 silly registry.get     via: '1.1 varnish',
+204 silly registry.get     age: '0',
+204 silly registry.get     'x-served-by': 'cache-atl6233-ATL',
+204 silly registry.get     'x-cache': 'MISS',
+204 silly registry.get     'x-cache-hits': '0',
+204 silly registry.get     'x-timer': 'S1412744700.581367,VS0,VE319',
+204 silly registry.get     vary: 'Accept',
+204 silly registry.get     'keep-alive': 'timeout=10, max=50',
+204 silly registry.get     connection: 'Keep-Alive' } ]
+205 silly addNameRange number 2 { name: 'atlassian-connect-express-redis',
+205 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+205 silly addNameRange   hasData: true }
+206 silly addNameRange versions [ 'atlassian-connect-express-redis',
+206 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+207 verbose addNamed [ 'atlassian-connect-express-redis', '0.1.3' ]
+208 verbose addNamed [ '0.1.3', '0.1.3' ]
+209 silly lockFile 5557d895-sian-connect-express-redis-0-1-3 atlassian-connect-express-redis@0.1.3
+210 verbose lock atlassian-connect-express-redis@0.1.3 /Users/vincentliao/.npm/5557d895-sian-connect-express-redis-0-1-3.lock
+211 silly addNameRange number 2 { name: 'atlassian-connect-express',
+211 silly addNameRange   range: '>=1.0.0-beta2 <2.0.0-0',
+211 silly addNameRange   hasData: true }
+212 silly addNameRange versions [ 'atlassian-connect-express',
+212 silly addNameRange   [ '0.6.0',
+212 silly addNameRange     '0.6.1',
+212 silly addNameRange     '0.6.2',
+212 silly addNameRange     '0.7.0',
+212 silly addNameRange     '0.7.1',
+212 silly addNameRange     '0.8.0',
+212 silly addNameRange     '0.8.1',
+212 silly addNameRange     '0.8.2',
+212 silly addNameRange     '0.8.3',
+212 silly addNameRange     '0.8.4',
+212 silly addNameRange     '0.8.5',
+212 silly addNameRange     '0.8.6',
+212 silly addNameRange     '0.9.0-beta1',
+212 silly addNameRange     '0.9.0-beta2',
+212 silly addNameRange     '0.9.0-beta3',
+212 silly addNameRange     '0.9.0-beta4',
+212 silly addNameRange     '0.9.0-beta5',
+212 silly addNameRange     '0.9.0-beta6',
+212 silly addNameRange     '0.9.0-beta7',
+212 silly addNameRange     '0.9.0-beta8',
+212 silly addNameRange     '0.9.0-beta9',
+212 silly addNameRange     '0.8.7',
+212 silly addNameRange     '0.9.0-beta10',
+212 silly addNameRange     '0.9.0-beta11',
+212 silly addNameRange     '0.9.0',
+212 silly addNameRange     '1.0.0-beta1',
+212 silly addNameRange     '0.9.1',
+212 silly addNameRange     '1.0.0-beta2',
+212 silly addNameRange     '0.9.2',
+212 silly addNameRange     '1.0.0-beta3',
+212 silly addNameRange     '0.9.3',
+212 silly addNameRange     '0.9.4',
+212 silly addNameRange     '1.0.0-beta4',
+212 silly addNameRange     '1.0.0',
+212 silly addNameRange     '1.0.1' ] ]
+213 verbose addNamed [ 'atlassian-connect-express', '1.0.1' ]
+214 verbose addNamed [ '1.0.1', '1.0.1' ]
+215 silly lockFile c11114f3-atlassian-connect-express-1-0-1 atlassian-connect-express@1.0.1
+216 verbose lock atlassian-connect-express@1.0.1 /Users/vincentliao/.npm/c11114f3-atlassian-connect-express-1-0-1.lock
+217 silly lockFile 988364e1--connect-express-redis-0-1-3-tgz https://registry.npmjs.org/atlassian-connect-express-redis/-/atlassian-connect-express-redis-0.1.3.tgz
+218 verbose lock https://registry.npmjs.org/atlassian-connect-express-redis/-/atlassian-connect-express-redis-0.1.3.tgz /Users/vincentliao/.npm/988364e1--connect-express-redis-0-1-3-tgz.lock
+219 silly lockFile a25949bc-assian-connect-express-1-0-1-tgz https://registry.npmjs.org/atlassian-connect-express/-/atlassian-connect-express-1.0.1.tgz
+220 verbose lock https://registry.npmjs.org/atlassian-connect-express/-/atlassian-connect-express-1.0.1.tgz /Users/vincentliao/.npm/a25949bc-assian-connect-express-1-0-1-tgz.lock
+221 verbose addRemoteTarball [ 'https://registry.npmjs.org/atlassian-connect-express-redis/-/atlassian-connect-express-redis-0.1.3.tgz',
+221 verbose addRemoteTarball   '855251ee93d914fa9609c9806480321cb3f9fb9f' ]
+222 verbose addRemoteTarball [ 'https://registry.npmjs.org/atlassian-connect-express/-/atlassian-connect-express-1.0.1.tgz',
+222 verbose addRemoteTarball   'b6ba32ec324bb992c4b59bcdd45b3cf357753a55' ]
+223 info retry fetch attempt 1 at 01:05:00
+224 verbose fetch to= /var/folders/vg/6vh_7xs56vscr6mpm9wl6rv80000gn/T/npm-32525-BtPo2J_G/registry.npmjs.org/atlassian-connect-express-redis/-/atlassian-connect-express-redis-0.1.3.tgz
+225 info retry fetch attempt 1 at 01:05:00
+226 verbose fetch to= /var/folders/vg/6vh_7xs56vscr6mpm9wl6rv80000gn/T/npm-32525-BtPo2J_G/registry.npmjs.org/atlassian-connect-express/-/atlassian-connect-express-1.0.1.tgz
+227 http GET https://registry.npmjs.org/atlassian-connect-express-redis/-/atlassian-connect-express-redis-0.1.3.tgz
+228 http GET https://registry.npmjs.org/atlassian-connect-express/-/atlassian-connect-express-1.0.1.tgz
+229 http 304 https://registry.npmjs.org/request
+230 silly registry.get cb [ 304,
+230 silly registry.get   { date: 'Wed, 08 Oct 2014 05:05:00 GMT',
+230 silly registry.get     server: 'Apache',
+230 silly registry.get     via: '1.1 varnish',
+230 silly registry.get     'last-modified': 'Wed, 08 Oct 2014 05:04:12 GMT',
+230 silly registry.get     'cache-control': 'max-age=60',
+230 silly registry.get     etag: '"AF98UQX3FI77F1X1FCMR0WZG4"',
+230 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+230 silly registry.get     'x-cache': 'HIT',
+230 silly registry.get     'x-cache-hits': '2',
+230 silly registry.get     'x-timer': 'S1412744700.945348,VS0,VE0',
+230 silly registry.get     vary: 'Accept',
+230 silly registry.get     'content-length': '0',
+230 silly registry.get     'keep-alive': 'timeout=10, max=49',
+230 silly registry.get     connection: 'Keep-Alive' } ]
+231 verbose etag https://registry.npmjs.org/request from cache
+232 http 304 https://registry.npmjs.org/lodash
+233 silly registry.get cb [ 304,
+233 silly registry.get   { date: 'Wed, 08 Oct 2014 05:05:00 GMT',
+233 silly registry.get     server: 'Apache',
+233 silly registry.get     via: '1.1 varnish',
+233 silly registry.get     'last-modified': 'Wed, 08 Oct 2014 05:04:35 GMT',
+233 silly registry.get     'cache-control': 'max-age=60',
+233 silly registry.get     etag: '"EF38GX9ARU19ST2K758MOPE83"',
+233 silly registry.get     'x-served-by': 'cache-atl6233-ATL',
+233 silly registry.get     'x-cache': 'HIT',
+233 silly registry.get     'x-cache-hits': '4',
+233 silly registry.get     'x-timer': 'S1412744700.947279,VS0,VE0',
+233 silly registry.get     vary: 'Accept',
+233 silly registry.get     'content-length': '0',
+233 silly registry.get     'keep-alive': 'timeout=10, max=49',
+233 silly registry.get     connection: 'Keep-Alive' } ]
+234 verbose etag https://registry.npmjs.org/lodash from cache
+235 silly addNameRange number 2 { name: 'request', range: '>=2.33.0-0 <3.0.0-0', hasData: true }
+236 silly addNameRange versions [ 'request',
+236 silly addNameRange   [ '0.10.0',
+236 silly addNameRange     '0.8.3',
+236 silly addNameRange     '0.9.0',
+236 silly addNameRange     '0.9.1',
+236 silly addNameRange     '0.9.5',
+236 silly addNameRange     '1.0.0',
+236 silly addNameRange     '1.1.0',
+236 silly addNameRange     '1.1.1',
+236 silly addNameRange     '1.2.0',
+236 silly addNameRange     '1.9.0',
+236 silly addNameRange     '1.9.1',
+236 silly addNameRange     '1.9.2',
+236 silly addNameRange     '1.9.3',
+236 silly addNameRange     '1.9.5',
+236 silly addNameRange     '1.9.7',
+236 silly addNameRange     '1.9.8',
+236 silly addNameRange     '1.9.9',
+236 silly addNameRange     '2.0.0',
+236 silly addNameRange     '2.0.1',
+236 silly addNameRange     '2.0.2',
+236 silly addNameRange     '2.0.3',
+236 silly addNameRange     '2.0.4',
+236 silly addNameRange     '2.0.5',
+236 silly addNameRange     '2.1.0',
+236 silly addNameRange     '2.1.1',
+236 silly addNameRange     '2.2.0',
+236 silly addNameRange     '2.2.5',
+236 silly addNameRange     '2.2.6',
+236 silly addNameRange     '2.2.9',
+236 silly addNameRange     '2.9.0',
+236 silly addNameRange     '2.9.1',
+236 silly addNameRange     '2.9.2',
+236 silly addNameRange     '2.9.3',
+236 silly addNameRange     '2.9.100',
+236 silly addNameRange     '2.9.150',
+236 silly addNameRange     '2.9.151',
+236 silly addNameRange     '2.9.152',
+236 silly addNameRange     '2.9.153',
+236 silly addNameRange     '2.9.200',
+236 silly addNameRange     '2.9.201',
+236 silly addNameRange     '2.9.202',
+236 silly addNameRange     '2.9.203',
+236 silly addNameRange     '2.10.0',
+236 silly addNameRange     '2.11.0',
+236 silly addNameRange     '2.11.1',
+236 silly addNameRange     '2.11.2',
+236 silly addNameRange     '2.11.3',
+236 silly addNameRange     '2.11.4',
+236 silly addNameRange     '2.12.0',
+236 silly addNameRange     '2.14.0',
+236 silly addNameRange     '2.16.0',
+236 silly addNameRange     '2.16.2',
+236 silly addNameRange     '2.16.4',
+236 silly addNameRange     '2.16.6',
+236 silly addNameRange     '2.18.0',
+236 silly addNameRange     '2.19.0',
+236 silly addNameRange     '2.20.0',
+236 silly addNameRange     '2.21.0',
+236 silly addNameRange     '2.22.0',
+236 silly addNameRange     '2.23.0',
+236 silly addNameRange     '2.24.0',
+236 silly addNameRange     '2.25.0',
+236 silly addNameRange     '2.26.0',
+236 silly addNameRange     '2.27.0',
+236 silly addNameRange     '2.28.0',
+236 silly addNameRange     '2.29.0',
+236 silly addNameRange     '2.30.0',
+236 silly addNameRange     '2.31.0',
+236 silly addNameRange     '2.32.0',
+236 silly addNameRange     '2.33.0',
+236 silly addNameRange     '2.34.0',
+236 silly addNameRange     '2.35.0',
+236 silly addNameRange     '2.36.0',
+236 silly addNameRange     '2.37.0',
+236 silly addNameRange     '2.38.0',
+236 silly addNameRange     '2.39.0',
+236 silly addNameRange     '2.40.0',
+236 silly addNameRange     '2.41.0',
+236 silly addNameRange     '2.42.0',
+236 silly addNameRange     '2.43.0',
+236 silly addNameRange     '2.44.0',
+236 silly addNameRange     '2.45.0' ] ]
+237 verbose addNamed [ 'request', '2.45.0' ]
+238 verbose addNamed [ '2.45.0', '2.45.0' ]
+239 silly lockFile b0064de5-request-2-45-0 request@2.45.0
+240 verbose lock request@2.45.0 /Users/vincentliao/.npm/b0064de5-request-2-45-0.lock
+241 silly addNameRange number 2 { name: 'lodash', range: '*', hasData: true }
+242 silly addNameRange versions [ 'lodash',
+242 silly addNameRange   [ '0.1.0',
+242 silly addNameRange     '0.2.0',
+242 silly addNameRange     '0.2.1',
+242 silly addNameRange     '0.2.2',
+242 silly addNameRange     '0.3.0',
+242 silly addNameRange     '0.3.1',
+242 silly addNameRange     '0.3.2',
+242 silly addNameRange     '0.4.0',
+242 silly addNameRange     '0.4.1',
+242 silly addNameRange     '0.4.2',
+242 silly addNameRange     '0.5.0-rc.1',
+242 silly addNameRange     '0.5.0',
+242 silly addNameRange     '0.5.1',
+242 silly addNameRange     '0.5.2',
+242 silly addNameRange     '0.6.0',
+242 silly addNameRange     '0.6.1',
+242 silly addNameRange     '0.7.0',
+242 silly addNameRange     '0.8.0',
+242 silly addNameRange     '0.8.1',
+242 silly addNameRange     '0.8.2',
+242 silly addNameRange     '0.9.0',
+242 silly addNameRange     '0.9.1',
+242 silly addNameRange     '0.9.2',
+242 silly addNameRange     '0.10.0',
+242 silly addNameRange     '1.0.0-rc.1',
+242 silly addNameRange     '1.0.0-rc.2',
+242 silly addNameRange     '1.0.0-rc.3',
+242 silly addNameRange     '1.0.0',
+242 silly addNameRange     '1.0.1',
+242 silly addNameRange     '1.1.0',
+242 silly addNameRange     '1.1.1',
+242 silly addNameRange     '1.2.0',
+242 silly addNameRange     '1.2.1',
+242 silly addNameRange     '1.3.0',
+242 silly addNameRange     '1.3.1',
+242 silly addNameRange     '2.0.0',
+242 silly addNameRange     '2.1.0',
+242 silly addNameRange     '2.2.0',
+242 silly addNameRange     '2.2.1',
+242 silly addNameRange     '2.3.0',
+242 silly addNameRange     '2.4.0',
+242 silly addNameRange     '2.4.1' ] ]
+243 verbose addNamed [ 'lodash', '2.4.1' ]
+244 verbose addNamed [ '2.4.1', '2.4.1' ]
+245 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+246 verbose lock lodash@2.4.1 /Users/vincentliao/.npm/8502be2a-lodash-2-4-1.lock
+247 silly lockFile 0d74032f-pmjs-org-lodash-lodash-2-4-1-tgz https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+248 verbose lock https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz /Users/vincentliao/.npm/0d74032f-pmjs-org-lodash-lodash-2-4-1-tgz.lock
+249 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz',
+249 verbose addRemoteTarball   '5b7723034dda4d262e5a46fb2c58d7cc22f71420' ]
+250 silly lockFile b0064de5-request-2-45-0 request@2.45.0
+251 silly lockFile b0064de5-request-2-45-0 request@2.45.0
+252 silly lockFile cda8d828-request-2-33-0 request@^2.33.0
+253 silly lockFile cda8d828-request-2-33-0 request@^2.33.0
+254 info retry fetch attempt 1 at 01:05:00
+255 verbose fetch to= /var/folders/vg/6vh_7xs56vscr6mpm9wl6rv80000gn/T/npm-32525-BtPo2J_G/registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+256 http GET https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+257 http 200 https://registry.npmjs.org/rsvp
+258 silly registry.get cb [ 200,
+258 silly registry.get   { date: 'Wed, 08 Oct 2014 05:05:00 GMT',
+258 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+258 silly registry.get     etag: '"287M4ST1MU5KU6NLJG8BGD4PA"',
+258 silly registry.get     'content-type': 'application/json',
+258 silly registry.get     'cache-control': 'max-age=60',
+258 silly registry.get     'content-length': '45750',
+258 silly registry.get     'accept-ranges': 'bytes',
+258 silly registry.get     via: '1.1 varnish',
+258 silly registry.get     age: '876',
+258 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+258 silly registry.get     'x-cache': 'HIT',
+258 silly registry.get     'x-cache-hits': '1',
+258 silly registry.get     'x-timer': 'S1412744700.586728,VS0,VE306',
+258 silly registry.get     vary: 'Accept',
+258 silly registry.get     'keep-alive': 'timeout=10, max=50',
+258 silly registry.get     connection: 'Keep-Alive' } ]
+259 silly addNameRange number 2 { name: 'rsvp', range: '>=3.0.3-0 <4.0.0-0', hasData: true }
+260 silly addNameRange versions [ 'rsvp',
+260 silly addNameRange   [ '1.0.0',
+260 silly addNameRange     '1.1.0',
+260 silly addNameRange     '1.1.1',
+260 silly addNameRange     '1.2.0',
+260 silly addNameRange     '2.0.0',
+260 silly addNameRange     '2.0.1',
+260 silly addNameRange     '2.0.2',
+260 silly addNameRange     '2.0.3',
+260 silly addNameRange     '2.0.4',
+260 silly addNameRange     '3.0.0',
+260 silly addNameRange     '3.0.1',
+260 silly addNameRange     '3.0.2',
+260 silly addNameRange     '3.0.3',
+260 silly addNameRange     '3.0.4',
+260 silly addNameRange     '3.0.6',
+260 silly addNameRange     '3.0.7',
+260 silly addNameRange     '3.0.8',
+260 silly addNameRange     '3.0.9',
+260 silly addNameRange     '3.0.12',
+260 silly addNameRange     '3.0.14',
+260 silly addNameRange     '3.0.13' ] ]
+261 verbose addNamed [ 'rsvp', '3.0.14' ]
+262 verbose addNamed [ '3.0.14', '3.0.14' ]
+263 silly lockFile 5f47d0eb-rsvp-3-0-14 rsvp@3.0.14
+264 verbose lock rsvp@3.0.14 /Users/vincentliao/.npm/5f47d0eb-rsvp-3-0-14.lock
+265 silly lockFile 4e3b1a59-y-npmjs-org-rsvp-rsvp-3-0-14-tgz https://registry.npmjs.org/rsvp/-/rsvp-3.0.14.tgz
+266 verbose lock https://registry.npmjs.org/rsvp/-/rsvp-3.0.14.tgz /Users/vincentliao/.npm/4e3b1a59-y-npmjs-org-rsvp-rsvp-3-0-14-tgz.lock
+267 verbose addRemoteTarball [ 'https://registry.npmjs.org/rsvp/-/rsvp-3.0.14.tgz',
+267 verbose addRemoteTarball   '9d2968cf36d878d3bb9a9a5a4b8e1ff55a76dd31' ]
+268 info retry fetch attempt 1 at 01:05:00
+269 verbose fetch to= /var/folders/vg/6vh_7xs56vscr6mpm9wl6rv80000gn/T/npm-32525-BtPo2J_G/registry.npmjs.org/rsvp/-/rsvp-3.0.14.tgz
+270 http GET https://registry.npmjs.org/rsvp/-/rsvp-3.0.14.tgz
+271 http 200 https://registry.npmjs.org/atlassian-connect-express-hipchat
+272 silly registry.get cb [ 200,
+272 silly registry.get   { date: 'Wed, 08 Oct 2014 05:05:00 GMT',
+272 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+272 silly registry.get     etag: '"5CLGWXVUASAGM7CIZL50LXV68"',
+272 silly registry.get     'content-type': 'application/json',
+272 silly registry.get     'cache-control': 'max-age=60',
+272 silly registry.get     'content-length': '29762',
+272 silly registry.get     'accept-ranges': 'bytes',
+272 silly registry.get     via: '1.1 varnish',
+272 silly registry.get     age: '0',
+272 silly registry.get     'x-served-by': 'cache-atl6222-ATL',
+272 silly registry.get     'x-cache': 'MISS',
+272 silly registry.get     'x-cache-hits': '0',
+272 silly registry.get     'x-timer': 'S1412744700.839696,VS0,VE109',
+272 silly registry.get     vary: 'Accept',
+272 silly registry.get     'keep-alive': 'timeout=10, max=49',
+272 silly registry.get     connection: 'Keep-Alive' } ]
+273 silly addNameRange number 2 { name: 'atlassian-connect-express-hipchat',
+273 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+273 silly addNameRange   hasData: true }
+274 silly addNameRange versions [ 'atlassian-connect-express-hipchat',
+274 silly addNameRange   [ '0.1.0',
+274 silly addNameRange     '0.1.1',
+274 silly addNameRange     '0.1.2',
+274 silly addNameRange     '0.1.3',
+274 silly addNameRange     '0.1.4',
+274 silly addNameRange     '0.1.5',
+274 silly addNameRange     '0.1.6',
+274 silly addNameRange     '0.1.7',
+274 silly addNameRange     '0.1.8',
+274 silly addNameRange     '0.1.9',
+274 silly addNameRange     '0.2.0',
+274 silly addNameRange     '0.2.1' ] ]
+275 verbose addNamed [ 'atlassian-connect-express-hipchat', '0.2.1' ]
+276 verbose addNamed [ '0.2.1', '0.2.1' ]
+277 silly lockFile c37a577e-an-connect-express-hipchat-0-2-1 atlassian-connect-express-hipchat@0.2.1
+278 verbose lock atlassian-connect-express-hipchat@0.2.1 /Users/vincentliao/.npm/c37a577e-an-connect-express-hipchat-0-2-1.lock
+279 http 200 https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+280 silly lockFile 372ddf59-onnect-express-hipchat-0-2-1-tgz https://registry.npmjs.org/atlassian-connect-express-hipchat/-/atlassian-connect-express-hipchat-0.2.1.tgz
+281 verbose lock https://registry.npmjs.org/atlassian-connect-express-hipchat/-/atlassian-connect-express-hipchat-0.2.1.tgz /Users/vincentliao/.npm/372ddf59-onnect-express-hipchat-0-2-1-tgz.lock
+282 verbose addRemoteTarball [ 'https://registry.npmjs.org/atlassian-connect-express-hipchat/-/atlassian-connect-express-hipchat-0.2.1.tgz',
+282 verbose addRemoteTarball   '8cfb5d1bc0b7e4252ff9c579a1818a1a4cb1a212' ]
+283 info retry fetch attempt 1 at 01:05:00
+284 verbose fetch to= /var/folders/vg/6vh_7xs56vscr6mpm9wl6rv80000gn/T/npm-32525-BtPo2J_G/registry.npmjs.org/atlassian-connect-express-hipchat/-/atlassian-connect-express-hipchat-0.2.1.tgz
+285 http GET https://registry.npmjs.org/atlassian-connect-express-hipchat/-/atlassian-connect-express-hipchat-0.2.1.tgz
+286 silly lockFile ff10fc91-press-hbs-express-hbs-0-7-11-tgz https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+287 silly lockFile ff10fc91-press-hbs-express-hbs-0-7-11-tgz https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+288 silly lockFile 82d18d62-express-hbs-0-7-11 express-hbs@0.7.11
+289 silly lockFile 82d18d62-express-hbs-0-7-11 express-hbs@0.7.11
+290 silly lockFile 06f871dc-express-hbs express-hbs@*
+291 silly lockFile 06f871dc-express-hbs express-hbs@*
+292 http 200 https://registry.npmjs.org/rsvp/-/rsvp-3.0.14.tgz
+293 http 200 https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+294 http 200 https://registry.npmjs.org/atlassian-connect-express-redis/-/atlassian-connect-express-redis-0.1.3.tgz
+295 silly lockFile 988364e1--connect-express-redis-0-1-3-tgz https://registry.npmjs.org/atlassian-connect-express-redis/-/atlassian-connect-express-redis-0.1.3.tgz
+296 silly lockFile 988364e1--connect-express-redis-0-1-3-tgz https://registry.npmjs.org/atlassian-connect-express-redis/-/atlassian-connect-express-redis-0.1.3.tgz
+297 silly lockFile 5557d895-sian-connect-express-redis-0-1-3 atlassian-connect-express-redis@0.1.3
+298 silly lockFile 5557d895-sian-connect-express-redis-0-1-3 atlassian-connect-express-redis@0.1.3
+299 silly lockFile 5d4bc6e2-sian-connect-express-redis-0-1-3 atlassian-connect-express-redis@^0.1.3
+300 silly lockFile 5d4bc6e2-sian-connect-express-redis-0-1-3 atlassian-connect-express-redis@^0.1.3
+301 silly lockFile 4e3b1a59-y-npmjs-org-rsvp-rsvp-3-0-14-tgz https://registry.npmjs.org/rsvp/-/rsvp-3.0.14.tgz
+302 silly lockFile 4e3b1a59-y-npmjs-org-rsvp-rsvp-3-0-14-tgz https://registry.npmjs.org/rsvp/-/rsvp-3.0.14.tgz
+303 silly lockFile 5f47d0eb-rsvp-3-0-14 rsvp@3.0.14
+304 silly lockFile 5f47d0eb-rsvp-3-0-14 rsvp@3.0.14
+305 silly lockFile 92b538a4-rsvp-3-0-3 rsvp@^3.0.3
+306 silly lockFile 92b538a4-rsvp-3-0-3 rsvp@^3.0.3
+307 http 200 https://registry.npmjs.org/express
+308 silly registry.get cb [ 200,
+308 silly registry.get   { date: 'Wed, 08 Oct 2014 05:05:00 GMT',
+308 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+308 silly registry.get     etag: '"7WQG3J2OMSS74TEGWHFU7MKG8"',
+308 silly registry.get     'content-type': 'application/json',
+308 silly registry.get     'cache-control': 'max-age=60',
+308 silly registry.get     'content-length': '382529',
+308 silly registry.get     'accept-ranges': 'bytes',
+308 silly registry.get     via: '1.1 varnish',
+308 silly registry.get     age: '1407',
+308 silly registry.get     'x-served-by': 'cache-atl6226-ATL',
+308 silly registry.get     'x-cache': 'HIT',
+308 silly registry.get     'x-cache-hits': '1',
+308 silly registry.get     'x-timer': 'S1412744700.874029,VS0,VE4',
+308 silly registry.get     vary: 'Accept',
+308 silly registry.get     'keep-alive': 'timeout=10, max=49',
+308 silly registry.get     connection: 'Keep-Alive' } ]
+309 silly addNameRange number 2 { name: 'express', range: '>=3.4.8-0 <4.0.0-0', hasData: true }
+310 silly addNameRange versions [ 'express',
+310 silly addNameRange   [ '0.14.0',
+310 silly addNameRange     '0.14.1',
+310 silly addNameRange     '1.0.0',
+310 silly addNameRange     '1.0.1',
+310 silly addNameRange     '1.0.2',
+310 silly addNameRange     '1.0.3',
+310 silly addNameRange     '1.0.4',
+310 silly addNameRange     '1.0.5',
+310 silly addNameRange     '1.0.6',
+310 silly addNameRange     '1.0.7',
+310 silly addNameRange     '1.0.8',
+310 silly addNameRange     '2.0.0',
+310 silly addNameRange     '2.1.0',
+310 silly addNameRange     '2.1.1',
+310 silly addNameRange     '2.2.0',
+310 silly addNameRange     '2.2.1',
+310 silly addNameRange     '2.2.2',
+310 silly addNameRange     '2.3.0',
+310 silly addNameRange     '2.3.1',
+310 silly addNameRange     '2.3.2',
+310 silly addNameRange     '2.3.3',
+310 silly addNameRange     '2.3.4',
+310 silly addNameRange     '2.3.5',
+310 silly addNameRange     '2.3.6',
+310 silly addNameRange     '2.3.7',
+310 silly addNameRange     '2.3.8',
+310 silly addNameRange     '2.3.9',
+310 silly addNameRange     '2.3.10',
+310 silly addNameRange     '2.3.11',
+310 silly addNameRange     '2.3.12',
+310 silly addNameRange     '2.4.0',
+310 silly addNameRange     '2.4.1',
+310 silly addNameRange     '2.4.2',
+310 silly addNameRange     '2.4.3',
+310 silly addNameRange     '2.4.4',
+310 silly addNameRange     '2.4.5',
+310 silly addNameRange     '2.4.6',
+310 silly addNameRange     '2.4.7',
+310 silly addNameRange     '2.5.0',
+310 silly addNameRange     '2.5.1',
+310 silly addNameRange     '2.5.2',
+310 silly addNameRange     '2.5.3',
+310 silly addNameRange     '2.5.4',
+310 silly addNameRange     '2.5.5',
+310 silly addNameRange     '2.5.6',
+310 silly addNameRange     '2.5.7',
+310 silly addNameRange     '2.5.8',
+310 silly addNameRange     '2.5.9',
+310 silly addNameRange     '2.5.10',
+310 silly addNameRange     '2.5.11',
+310 silly addNameRange     '3.0.0',
+310 silly addNameRange     '3.0.1',
+310 silly addNameRange     '3.0.2',
+310 silly addNameRange     '3.0.3',
+310 silly addNameRange     '3.0.4',
+310 silly addNameRange     '3.0.5',
+310 silly addNameRange     '3.0.6',
+310 silly addNameRange     '3.1.0',
+310 silly addNameRange     '3.1.1',
+310 silly addNameRange     '3.1.2',
+310 silly addNameRange     '3.2.0',
+310 silly addNameRange     '3.2.1',
+310 silly addNameRange     '3.2.2',
+310 silly addNameRange     '3.2.3',
+310 silly addNameRange     '3.2.4',
+310 silly addNameRange     '3.2.5',
+310 silly addNameRange     '3.2.6',
+310 silly addNameRange     '3.3.0',
+310 silly addNameRange     '3.3.1',
+310 silly addNameRange     '3.3.2',
+310 silly addNameRange     '3.3.3',
+310 silly addNameRange     '3.3.4',
+310 silly addNameRange     '3.3.5',
+310 silly addNameRange     '3.3.6',
+310 silly addNameRange     '1.0.0-beta',
+310 silly addNameRange     '1.0.0-beta2',
+310 silly addNameRange     '1.0.0-rc',
+310 silly addNameRange     '1.0.0-rc2',
+310 silly addNameRange     '1.0.0-rc3',
+310 silly addNameRange     '1.0.0-rc4',
+310 silly addNameRange     '2.0.0-beta',
+310 silly addNameRange     '2.0.0-beta2',
+310 silly addNameRange     '2.0.0-beta3',
+310 silly addNameRange     '2.0.0-rc',
+310 silly addNameRange     '2.0.0-rc2',
+310 silly addNameRange     '2.0.0-rc3',
+310 silly addNameRange     '3.0.0-alpha1',
+310 silly addNameRange     '3.0.0-alpha2',
+310 silly addNameRange     '3.0.0-alpha3',
+310 silly addNameRange     '3.0.0-alpha4',
+310 silly addNameRange     '3.0.0-alpha5',
+310 silly addNameRange     '3.0.0-beta1',
+310 silly addNameRange     '3.0.0-beta2',
+310 silly addNameRange     '3.0.0-beta3',
+310 silly addNameRange     '3.0.0-beta4',
+310 silly addNameRange     '3.0.0-beta6',
+310 silly addNameRange     '3.0.0-beta7',
+310 silly addNameRange     '3.0.0-rc1',
+310 silly addNameRange     '3.0.0-rc2',
+310 silly addNameRange     '3.0.0-rc3',
+310 silly addNameRange     '3.0.0-rc4',
+310 silly addNameRange     '3.0.0-rc5',
+310 silly addNameRange     '3.3.7',
+310 silly addNameRange     '3.3.8',
+310 silly addNameRange     '3.4.0',
+310 silly addNameRange     '3.4.1',
+310 silly addNameRange     '3.4.2',
+310 silly addNameRange     '3.4.3',
+310 silly addNameRange     '3.4.4',
+310 silly addNameRange     '3.4.5',
+310 silly addNameRange     '3.4.6',
+310 silly addNameRange     '3.4.7',
+310 silly addNameRange     '3.4.8',
+310 silly addNameRange     '4.0.0-rc1',
+310 silly addNameRange     '4.0.0-rc2',
+310 silly addNameRange     '3.5.0',
+310 silly addNameRange     '4.0.0-rc3',
+310 silly addNameRange     '4.0.0-rc4',
+310 silly addNameRange     '3.5.1',
+310 silly addNameRange     '4.0.0',
+310 silly addNameRange     '3.5.2',
+310 silly addNameRange     '4.1.0',
+310 silly addNameRange     '4.1.1',
+310 silly addNameRange     '3.5.3',
+310 silly addNameRange     '4.1.2',
+310 silly addNameRange     '3.6.0',
+310 silly addNameRange     '4.2.0',
+310 silly addNameRange     '3.7.0',
+310 silly addNameRange     '3.8.0',
+310 silly addNameRange     '4.3.0',
+310 silly addNameRange     '4.3.1',
+310 silly addNameRange     '3.8.1',
+310 silly addNameRange     '4.3.2',
+310 silly addNameRange     '3.9.0',
+310 silly addNameRange     '4.4.0',
+310 silly addNameRange     '4.4.1',
+310 silly addNameRange     '3.10.0',
+310 silly addNameRange     '3.10.1',
+310 silly addNameRange     '3.10.2',
+310 silly addNameRange     '3.10.3',
+310 silly addNameRange     '3.10.4',
+310 silly addNameRange     '4.4.2',
+310 silly addNameRange     '3.10.5',
+310 silly addNameRange     '4.4.3',
+310 silly addNameRange     '3.11.0',
+310 silly addNameRange     '4.4.4',
+310 silly addNameRange     '3.12.0',
+310 silly addNameRange     '3.12.1',
+310 silly addNameRange     '4.4.5',
+310 silly addNameRange     '3.13.0',
+310 silly addNameRange     '4.5.0',
+310 silly addNameRange     '4.5.1',
+310 silly addNameRange     '3.14.0',
+310 silly addNameRange     '4.6.0',
+310 silly addNameRange     '4.6.1',
+310 silly addNameRange     '3.15.0',
+310 silly addNameRange     '4.7.0',
+310 silly addNameRange     '3.15.1',
+310 silly addNameRange     '4.7.1',
+310 silly addNameRange     '3.15.2',
+310 silly addNameRange     '4.7.2',
+310 silly addNameRange     '4.7.3',
+310 silly addNameRange     '3.15.3',
+310 silly addNameRange     '4.7.4',
+310 silly addNameRange     '3.16.0',
+310 silly addNameRange     '4.8.0',
+310 silly addNameRange     '3.16.1',
+310 silly addNameRange     '4.8.1',
+310 silly addNameRange     '3.16.2',
+310 silly addNameRange     '4.8.2',
+310 silly addNameRange     '3.16.3',
+310 silly addNameRange     '3.16.4',
+310 silly addNameRange     '4.8.3',
+310 silly addNameRange     '3.16.5',
+310 silly addNameRange     '3.16.6',
+310 silly addNameRange     '4.8.4',
+310 silly addNameRange     '3.16.7',
+310 silly addNameRange     '4.8.5',
+310 silly addNameRange     '3.16.8',
+310 silly addNameRange     '4.8.6',
+310 silly addNameRange     '3.16.9',
+310 silly addNameRange     '4.8.7',
+310 silly addNameRange     '3.16.10',
+310 silly addNameRange     '4.8.8',
+310 silly addNameRange     '3.17.0',
+310 silly addNameRange     '3.17.1',
+310 silly addNameRange     '4.9.0',
+310 silly addNameRange     '3.17.2',
+310 silly addNameRange     '4.9.1',
+310 silly addNameRange     '4.9.2',
+310 silly addNameRange     '3.17.3',
+310 silly addNameRange     '4.9.3',
+310 silly addNameRange     '3.17.4',
+310 silly addNameRange     '4.9.4',
+310 silly addNameRange     '3.17.5',
+310 silly addNameRange     '4.9.5',
+310 silly addNameRange     '3.17.6' ] ]
+311 verbose addNamed [ 'express', '3.17.6' ]
+312 verbose addNamed [ '3.17.6', '3.17.6' ]
+313 silly lockFile 10ee1d0d-express-3-17-6 express@3.17.6
+314 verbose lock express@3.17.6 /Users/vincentliao/.npm/10ee1d0d-express-3-17-6.lock
+315 silly lockFile b38564d4-s-org-express-express-3-17-6-tgz https://registry.npmjs.org/express/-/express-3.17.6.tgz
+316 verbose lock https://registry.npmjs.org/express/-/express-3.17.6.tgz /Users/vincentliao/.npm/b38564d4-s-org-express-express-3-17-6-tgz.lock
+317 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.17.6.tgz',
+317 verbose addRemoteTarball   'e2f9a6a48b85233afc4f7b6c5cd6799c53f5f46f' ]
+318 info retry fetch attempt 1 at 01:05:01
+319 verbose fetch to= /var/folders/vg/6vh_7xs56vscr6mpm9wl6rv80000gn/T/npm-32525-BtPo2J_G/registry.npmjs.org/express/-/express-3.17.6.tgz
+320 http GET https://registry.npmjs.org/express/-/express-3.17.6.tgz
+321 silly lockFile 0d74032f-pmjs-org-lodash-lodash-2-4-1-tgz https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+322 silly lockFile 0d74032f-pmjs-org-lodash-lodash-2-4-1-tgz https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+323 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+324 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+325 silly lockFile 15f92fc8-lodash lodash@*
+326 silly lockFile 15f92fc8-lodash lodash@*
+327 http 200 https://registry.npmjs.org/static-expiry/-/static-expiry-0.0.10.tgz
+328 silly lockFile 6c456545--expiry-static-expiry-0-0-10-tgz https://registry.npmjs.org/static-expiry/-/static-expiry-0.0.10.tgz
+329 silly lockFile 6c456545--expiry-static-expiry-0-0-10-tgz https://registry.npmjs.org/static-expiry/-/static-expiry-0.0.10.tgz
+330 silly lockFile c8390b22-static-expiry-0-0-10 static-expiry@0.0.10
+331 silly lockFile c8390b22-static-expiry-0-0-10 static-expiry@0.0.10
+332 silly lockFile 42f3832c-static-expiry-0-0-10 static-expiry@>=0.0.10
+333 silly lockFile 42f3832c-static-expiry-0-0-10 static-expiry@>=0.0.10
+334 http 200 https://registry.npmjs.org/atlassian-connect-express/-/atlassian-connect-express-1.0.1.tgz
+335 silly lockFile a25949bc-assian-connect-express-1-0-1-tgz https://registry.npmjs.org/atlassian-connect-express/-/atlassian-connect-express-1.0.1.tgz
+336 silly lockFile a25949bc-assian-connect-express-1-0-1-tgz https://registry.npmjs.org/atlassian-connect-express/-/atlassian-connect-express-1.0.1.tgz
+337 silly lockFile c11114f3-atlassian-connect-express-1-0-1 atlassian-connect-express@1.0.1
+338 silly lockFile c11114f3-atlassian-connect-express-1-0-1 atlassian-connect-express@1.0.1
+339 silly lockFile e436f043-sian-connect-express-1-0-0-beta2 atlassian-connect-express@^1.0.0-beta2
+340 silly lockFile e436f043-sian-connect-express-1-0-0-beta2 atlassian-connect-express@^1.0.0-beta2
+341 http 200 https://registry.npmjs.org/express/-/express-3.17.6.tgz
+342 http 200 https://registry.npmjs.org/atlassian-connect-express-hipchat/-/atlassian-connect-express-hipchat-0.2.1.tgz
+343 silly lockFile 372ddf59-onnect-express-hipchat-0-2-1-tgz https://registry.npmjs.org/atlassian-connect-express-hipchat/-/atlassian-connect-express-hipchat-0.2.1.tgz
+344 silly lockFile 372ddf59-onnect-express-hipchat-0-2-1-tgz https://registry.npmjs.org/atlassian-connect-express-hipchat/-/atlassian-connect-express-hipchat-0.2.1.tgz
+345 silly lockFile c37a577e-an-connect-express-hipchat-0-2-1 atlassian-connect-express-hipchat@0.2.1
+346 silly lockFile c37a577e-an-connect-express-hipchat-0-2-1 atlassian-connect-express-hipchat@0.2.1
+347 silly lockFile 5491c5d9-an-connect-express-hipchat-0-2-0 atlassian-connect-express-hipchat@^0.2.0
+348 silly lockFile 5491c5d9-an-connect-express-hipchat-0-2-0 atlassian-connect-express-hipchat@^0.2.0
+349 silly lockFile b38564d4-s-org-express-express-3-17-6-tgz https://registry.npmjs.org/express/-/express-3.17.6.tgz
+350 silly lockFile b38564d4-s-org-express-express-3-17-6-tgz https://registry.npmjs.org/express/-/express-3.17.6.tgz
+351 silly lockFile 10ee1d0d-express-3-17-6 express@3.17.6
+352 silly lockFile 10ee1d0d-express-3-17-6 express@3.17.6
+353 silly lockFile ef52c292-express-3-4-8 express@^3.4.8
+354 silly lockFile ef52c292-express-3-4-8 express@^3.4.8
+355 error Error: EACCES, mkdir '/Users/vincentliao/.npm/lodash/2.4.1'
+355 error  { [Error: EACCES, mkdir '/Users/vincentliao/.npm/lodash/2.4.1']
+355 error   errno: 3,
+355 error   code: 'EACCES',
+355 error   path: '/Users/vincentliao/.npm/lodash/2.4.1',
+355 error   parent: 'my-hipchat-add-on' }
+356 error Please try running this command again as root/Administrator.
+357 error System Darwin 14.0.0
+358 error command "node" "/usr/local/bin/npm" "install"
+359 error cwd /Users/vincentliao/Git/vinny-hipchat-addon
+360 error node -v v0.10.32
+361 error npm -v 1.4.28
+362 error path /Users/vincentliao/.npm/lodash/2.4.1
+363 error code EACCES
+364 error errno 3
+365 error stack Error: EACCES, mkdir '/Users/vincentliao/.npm/lodash/2.4.1'
+366 verbose exit [ 3, true ]
